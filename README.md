@@ -1,2 +1,0 @@
-# John Christensen
-Hello World!
