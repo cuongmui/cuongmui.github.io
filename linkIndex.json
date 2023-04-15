@@ -1,0 +1,61 @@
+{
+  "index": {
+    "links": {
+      "content/": [
+        {
+          "source": "content/",
+          "target": "/notes/WebbCompare",
+          "text": "WebbCompare"
+        },
+        {
+          "source": "content/",
+          "target": "/notes/WebbCompare",
+          "text": "WebbCompare"
+        },
+        {
+          "source": "content/",
+          "target": "/notes/IBZ",
+          "text": "notes/IBZ"
+        }
+      ]
+    },
+    "backlinks": {
+      "/notes/IBZ": [
+        {
+          "source": "content/",
+          "target": "/notes/IBZ",
+          "text": "notes/IBZ"
+        }
+      ],
+      "/notes/WebbCompare": [
+        {
+          "source": "content/",
+          "target": "/notes/WebbCompare",
+          "text": "WebbCompare"
+        },
+        {
+          "source": "content/",
+          "target": "/notes/WebbCompare",
+          "text": "WebbCompare"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "source": "content/",
+      "target": "/notes/WebbCompare",
+      "text": "WebbCompare"
+    },
+    {
+      "source": "content/",
+      "target": "/notes/WebbCompare",
+      "text": "WebbCompare"
+    },
+    {
+      "source": "content/",
+      "target": "/notes/IBZ",
+      "text": "notes/IBZ"
+    }
+  ]
+}
