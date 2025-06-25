@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>React Bootstrap</ShortName>
-  <Description>Search React Bootstrap</Description>
+  <ShortName>Nhà Thuốc Cường Mùi</ShortName>
+  <Description>Tìm kiếm Nhà Thuốc Cường Mùi </Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">
     https://react-bootstrap.netlify.app/img/favicon.ico</Image>

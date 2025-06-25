@@ -71,7 +71,7 @@
             children: [
               (0, o.jsxs)(n.p, {
                 children: [
-                  "Bootstrap includes a few general use CSS transitions that can be applied\nto a number of components. React Bootstrap, bundles them up into a few composable\n",
+                  "Bootstrap includes a few general use CSS transitions that can be applied\nto a number of components. CM Pharma, bundles them up into a few composable\n",
                   (0, o.jsx)(n.code, { children: "<Transition>" }),
                   " components from ",
                   (0, o.jsx)(n.a, {
