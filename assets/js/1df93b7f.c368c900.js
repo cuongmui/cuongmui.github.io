@@ -11,7 +11,19 @@
         const t = (0, n.useRef)();
         return (
           (0, n.useEffect)(() => {
-           
+            if ("undefined" != typeof document) {
+              const e = document.createElement("script");
+              (e.async = !0),
+                (e.id = "_carbonads_js"),
+                (e.type = "text/javascript"),
+                (e.src =
+                  "../logo.png"),
+                t.current.appendChild(e);
+            }
+            return () => {
+              for (; t.current?.firstChild; )
+                t.current.removeChild(t.current.firstChild);
+            };
           }, []),
           (0, r.jsx)("div", { ref: t, ...e })
         );
@@ -34,9 +46,51 @@
       const a = { features: "features_t9lD" };
       var c = s(85893);
       const l = [
-       
-      
-       
+        {
+          title: "Rebuilt with React",
+          description: (0, c.jsxs)(c.Fragment, {
+            children: [
+              (0, c.jsx)("p", {
+                children:
+                  "React-Bootstrap replaces the Bootstrap JavaScript. Each component has been built from scratch as a true React component, without unneeded dependencies like jQuery.",
+              }),
+              (0, c.jsx)("p", {
+                children:
+                  "As one of the oldest React libraries, React-Bootstrap has evolved and grown alongside React, making it an excellent choice as your UI foundation.",
+              }),
+            ],
+          }),
+        },
+        {
+          title: "Bootstrap at its core",
+          description: (0, c.jsxs)(c.Fragment, {
+            children: [
+              (0, c.jsx)("p", {
+                children:
+                  "Built with compatibility in mind, we embrace our bootstrap core and strive to be compatible with the world's largest UI ecosystem.",
+              }),
+              (0, c.jsx)("p", {
+                children:
+                  "By relying entirely on the Bootstrap stylesheet, React-Bootstrap just works with the thousands of Bootstrap themes you already love.",
+              }),
+            ],
+          }),
+        },
+        {
+          title: "Accessible by default",
+          description: (0, c.jsxs)(c.Fragment, {
+            children: [
+              (0, c.jsx)("p", {
+                children:
+                  "The React component model gives us more control over form and function of each component.",
+              }),
+              (0, c.jsx)("p", {
+                children:
+                  "Each component is implemented with accessibility in mind. The result is a set of accessible-by-default components, over what is possible from plain Bootstrap.",
+              }),
+            ],
+          }),
+        },
       ];
       function d(e) {
         let { title: t, description: s } = e;
@@ -68,7 +122,7 @@
       const m = {
         heroBanner: "heroBanner_qdFl",
         buttons: "buttons_AeoN",
-        
+        carbonads: "carbonads_sLMe",
       };
       function b() {
         const { siteConfig: e } = (0, o.Z)(),
@@ -89,17 +143,23 @@
                   (0, c.jsx)(r.Z, {
                     className: "button button--primary button--lg",
                     to: "/docs/getting-started/introduction",
-                    children: "Bắt Đầu",
+                    children: "Get started",
                   }),
                   (0, c.jsx)(r.Z, {
                     className: "button button--primary button--lg",
                     to: "/docs/components/accordion",
-                    children: "TÌm Hiểu Thêm!",
+                    children: "Components",
                   }),
                 ],
               }),
-              
-              (0, c.jsx),
+              (0, c.jsxs)("div", {
+                className: "my-2",
+                children: ["Current version: ", t],
+              }),
+              (0, c.jsx)("div", {
+                className: m.carbonads,
+                children: (0, c.jsx)(u.Z, {}),
+              }),
             ],
           }),
         });

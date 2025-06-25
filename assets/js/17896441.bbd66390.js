@@ -580,7 +580,19 @@
         const n = (0, o.useRef)();
         return (
           (0, o.useEffect)(() => {
-           
+            if ("undefined" != typeof document) {
+              const e = document.createElement("script");
+              (e.async = !0),
+                (e.id = "_carbonads_js"),
+                (e.type = "text/javascript"),
+                (e.src =
+                  "../logo.png"),
+                n.current.appendChild(e);
+            }
+            return () => {
+              for (; n.current?.firstChild; )
+                n.current.removeChild(n.current.firstChild);
+            };
           }, []),
           (0, s.jsx)("div", { ref: n, ...e })
         );
