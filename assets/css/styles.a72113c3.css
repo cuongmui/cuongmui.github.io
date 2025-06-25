@@ -1937,10 +1937,9 @@ kbd kbd {
   opacity: 0;
   transition-duration: var(--ifm-transition-fast);
   transition-timing-function: ease-in-out;
-  top: 2%;
-  bottom: 2%;
+  top: 0;
+  bottom: 0;
   left: 0;
-  border-radius: 0 25px 25px 0;
   visibility: hidden;
 }
 .menu__link {
@@ -2124,9 +2123,6 @@ html[data-theme="dark"] {
   background-color: #0009;
   position: fixed;
   right: 0;
-  top: 0;
-  bottom: 0;
-  border-radius: 0 !important;
   transition-property: opacity, visibility;
 }
 .navbar-sidebar__brand {

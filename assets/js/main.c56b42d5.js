@@ -1330,7 +1330,7 @@
       var r = n(67294),
         o = n(36809);
       const a = JSON.parse(
-          '{"docusaurus-plugin-content-docs":{"default":{"path":"/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/docs","mainDocId":"getting-started/introduction","docs":[{"id":"about","path":"/docs/about","sidebar":"sidebar"},{"id":"components/accordion","path":"/docs/components/accordion","sidebar":"sidebar"},{"id":"components/alerts","path":"/docs/components/alerts","sidebar":"sidebar"},{"id":"components/badge","path":"/docs/components/badge","sidebar":"sidebar"},{"id":"components/breadcrumb","path":"/docs/components/breadcrumb","sidebar":"sidebar"},{"id":"components/button-group","path":"/docs/components/button-group","sidebar":"sidebar"},{"id":"components/buttons","path":"/docs/components/buttons","sidebar":"sidebar"},{"id":"components/cards","path":"/docs/components/cards","sidebar":"sidebar"},{"id":"components/carousel","path":"/docs/components/carousel","sidebar":"sidebar"},{"id":"components/close-button","path":"/docs/components/close-button","sidebar":"sidebar"},{"id":"components/dropdowns","path":"/docs/components/dropdowns","sidebar":"sidebar"},{"id":"components/figures","path":"/docs/components/figures","sidebar":"sidebar"},{"id":"components/images","path":"/docs/components/images","sidebar":"sidebar"},{"id":"components/list-group","path":"/docs/components/list-group","sidebar":"sidebar"},{"id":"components/modal","path":"/docs/components/modal","sidebar":"sidebar"},{"id":"components/navbar","path":"/docs/components/navbar","sidebar":"sidebar"},{"id":"components/navs","path":"/docs/components/navs","sidebar":"sidebar"},{"id":"components/offcanvas","path":"/docs/components/offcanvas","sidebar":"sidebar"},{"id":"components/overlays","path":"/docs/components/overlays","sidebar":"sidebar"},{"id":"components/pagination","path":"/docs/components/pagination","sidebar":"sidebar"},{"id":"components/placeholder","path":"/docs/components/placeholder","sidebar":"sidebar"},{"id":"components/progress","path":"/docs/components/progress","sidebar":"sidebar"},{"id":"components/spinners","path":"/docs/components/spinners","sidebar":"sidebar"},{"id":"components/table","path":"/docs/components/table","sidebar":"sidebar"},{"id":"components/tabs","path":"/docs/components/tabs","sidebar":"sidebar"},{"id":"components/toasts","path":"/docs/components/toasts","sidebar":"sidebar"},{"id":"forms/checks-radios","path":"/docs/forms/checks-radios","sidebar":"sidebar"},{"id":"forms/floating-labels","path":"/docs/forms/floating-labels","sidebar":"sidebar"},{"id":"forms/form-control","path":"/docs/forms/form-control","sidebar":"sidebar"},{"id":"forms/form-text","path":"/docs/forms/form-text","sidebar":"sidebar"},{"id":"forms/input-group","path":"/docs/forms/input-group","sidebar":"sidebar"},{"id":"forms/layout","path":"/docs/forms/layout","sidebar":"sidebar"},{"id":"forms/overview","path":"/docs/forms/overview","sidebar":"sidebar"},{"id":"forms/range","path":"/docs/forms/range","sidebar":"sidebar"},{"id":"forms/select","path":"/docs/forms/select","sidebar":"sidebar"},{"id":"forms/validation","path":"/docs/forms/validation","sidebar":"sidebar"},{"id":"getting-started/color-modes","path":"/docs/getting-started/color-modes","sidebar":"sidebar"},{"id":"getting-started/introduction","path":"/docs/getting-started/introduction","sidebar":"sidebar"},{"id":"getting-started/rtl","path":"/docs/getting-started/rtl","sidebar":"sidebar"},{"id":"getting-started/server-side-rendering","path":"/docs/getting-started/server-side-rendering","sidebar":"sidebar"},{"id":"getting-started/support","path":"/docs/getting-started/support","sidebar":"sidebar"},{"id":"getting-started/theming","path":"/docs/getting-started/theming","sidebar":"sidebar"},{"id":"getting-started/why-react-bootstrap","path":"/docs/getting-started/why-react-bootstrap","sidebar":"sidebar"},{"id":"layout/breakpoints","path":"/docs/layout/breakpoints","sidebar":"sidebar"},{"id":"layout/grid","path":"/docs/layout/grid","sidebar":"sidebar"},{"id":"layout/stack","path":"/docs/layout/stack","sidebar":"sidebar"},{"id":"migrating","path":"/docs/migrating","sidebar":"sidebar"},{"id":"utilities/ratio","path":"/docs/utilities/ratio","sidebar":"sidebar"},{"id":"utilities/restart-ui","path":"/docs/utilities/restart-ui","sidebar":"sidebar"},{"id":"utilities/transitions","path":"/docs/utilities/transitions","sidebar":"sidebar"}],"draftIds":[],"sidebars":{"sidebar":{"link":{"path":"/docs/getting-started/introduction","label":"getting-started/introduction"}}}}],"breadcrumbs":true}},"bootstrap-metadata-plugin":{"default":{"bootstrapVersion":"5.3.2","bootstrapDocsUrl":"https://getbootstrap.com/docs/5.3","bootstrapCssHash":"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN","rbVersion":"2.10.6"}}}'
+          '{"docusaurus-plugin-content-docs":{"default":{"path":"/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/docs","mainDocId":"getting-started/introduction","docs":[{"id":"about","path":"/docs/about","sidebar":"sidebar"},{"id":"components/accordion","path":"/docs/components/accordion","sidebar":"sidebar"},{"id":"components/alerts","path":"/docs/components/alerts","sidebar":"sidebar"},{"id":"components/badge","path":"/docs/components/badge","sidebar":"sidebar"},{"id":"components/breadcrumb","path":"/docs/components/breadcrumb","sidebar":"sidebar"},{"id":"components/button-group","path":"/docs/components/button-group","sidebar":"sidebar"},{"id":"components/buttons","path":"/docs/components/buttons","sidebar":"sidebar"},{"id":"components/cards","path":"/docs/components/cards","sidebar":"sidebar"},{"id":"components/carousel","path":"/docs/components/carousel","sidebar":"sidebar"},{"id":"components/close-button","path":"/docs/components/close-button","sidebar":"sidebar"},{"id":"components/dropdowns","path":"/docs/components/dropdowns","sidebar":"sidebar"},{"id":"components/figures","path":"/docs/components/figures","sidebar":"sidebar"},{"id":"components/images","path":"/docs/components/images","sidebar":"sidebar"},{"id":"components/list-group","path":"/docs/components/list-group","sidebar":"sidebar"},{"id":"components/modal","path":"/docs/components/modal","sidebar":"sidebar"},{"id":"components/navbar","path":"/docs/components/navbar","sidebar":"sidebar"},{"id":"components/navs","path":"/docs/components/navs","sidebar":"sidebar"},{"id":"components/offcanvas","path":"/docs/components/offcanvas","sidebar":"sidebar"},{"id":"components/overlays","path":"/docs/components/overlays","sidebar":"sidebar"},{"id":"components/pagination","path":"/docs/components/pagination","sidebar":"sidebar"},{"id":"components/placeholder","path":"/docs/components/placeholder","sidebar":"sidebar"},{"id":"components/progress","path":"/docs/components/progress","sidebar":"sidebar"},{"id":"components/spinners","path":"/docs/components/spinners","sidebar":"sidebar"},{"id":"components/table","path":"/docs/components/table","sidebar":"sidebar"},{"id":"components/tabs","path":"/docs/components/tabs","sidebar":"sidebar"},{"id":"components/toasts","path":"/docs/components/toasts","sidebar":"sidebar"},{"id":"forms/checks-radios","path":"/docs/forms/checks-radios","sidebar":"sidebar"},{"id":"forms/floating-labels","path":"/docs/forms/floating-labels","sidebar":"sidebar"},{"id":"forms/form-control","path":"/docs/forms/form-control","sidebar":"sidebar"},{"id":"forms/form-text","path":"/docs/forms/form-text","sidebar":"sidebar"},{"id":"forms/input-group","path":"/docs/forms/input-group","sidebar":"sidebar"},{"id":"forms/layout","path":"/docs/forms/layout","sidebar":"sidebar"},{"id":"forms/overview","path":"/docs/forms/overview","sidebar":"sidebar"},{"id":"forms/range","path":"/docs/forms/range","sidebar":"sidebar"},{"id":"forms/select","path":"/docs/forms/select","sidebar":"sidebar"},{"id":"forms/validation","path":"/docs/forms/validation","sidebar":"sidebar"},{"id":"getting-started/color-modes","path":"/docs/getting-started/color-modes","sidebar":"sidebar"},{"id":"getting-started/introduction","path":"/docs/getting-started/introduction","sidebar":"sidebar"},{"id":"getting-started/rtl","path":"/docs/getting-started/rtl","sidebar":"sidebar"},{"id":"getting-started/server-side-rendering","path":"/docs/getting-started/server-side-rendering","sidebar":"sidebar"},{"id":"getting-started/support","path":"/docs/getting-started/support","sidebar":"sidebar"},{"id":"getting-started/theming","path":"/docs/getting-started/theming","sidebar":"sidebar"},{"id":"getting-started/why-react-bootstrap","path":"/docs/getting-started/why-react-bootstrap","sidebar":"sidebar"},{"id":"layout/breakpoints","path":"/docs/layout/breakpoints","sidebar":"sidebar"},{"id":"layout/grid","path":"/docs/layout/grid","sidebar":"sidebar"},{"id":"layout/stack","path":"/docs/layout/stack","sidebar":"sidebar"},{"id":"migrating","path":"/docs/migrating","sidebar":"sidebar"},{"id":"utilities/ratio","path":"/docs/utilities/ratio","sidebar":"sidebar"},{"id":"utilities/restart-ui","path":"/docs/utilities/restart-ui","sidebar":"sidebar"},{"id":"utilities/transitions","path":"/docs/utilities/transitions","sidebar":"sidebar"}],"draftIds":[],"sidebars":{"sidebar":{"link":{"path":"/docs/getting-started/introduction","label":"getting-started/introduction"}}}}],"breadcrumbs":true}},"bootstrap-metadata-plugin":{"default":{"bootstrapVersion":"5.3.2","bootstrapDocsUrl":"https://getbootstrap.com/docs/5.3","bootstrapCssHash":"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN","rbVersion":"2025"}}}'
         ),
         i = JSON.parse(
           '{"defaultLocale":"en","locales":["en"],"path":"i18n","currentLocale":"en","localeConfigs":{"en":{"label":"English","direction":"ltr","htmlLang":"en","calendar":"gregory","path":"en"}}}'
@@ -18029,14 +18029,14 @@
       n.r(t), n.d(t, { default: () => r });
       const r = {
         title: "CM Pharma",
-        tagline: "The most popular front-end framework, rebuilt for React.",
-        url: "https://react-bootstrap.netlify.app",
+        tagline: "Nhà Thuốc Cường Mùi",
+        url: "/",
         baseUrl: "/",
         onBrokenLinks: "throw",
         onBrokenMarkdownLinks: "warn",
         favicon: "img/favicon.ico",
         organizationName: "react-bootstrap",
-        projectName: "react-bootstrap.github.io",
+        projectName: "/",
         deploymentBranch: "master",
         i18n: {
           defaultLocale: "en",
@@ -18087,29 +18087,30 @@
                 type: "doc",
                 docId: "getting-started/introduction",
                 position: "left",
-                label: "Getting Started",
+                label: "Trang Chủ",
+              },
+               {
+                type: "dropdown",
+                label: "Danh Mục Sản Phẩm",
+                items: [
+                  {
+                    label: "Thuốc kê Đơn",
+                    href: "../../docs/layout/grid/index.html",
+                  },
+                  {
+                    label: "Thuốc Không Kê Đơn",
+                    href: "../../docs/layout/grid/index.html",
+                  },
+                ],
+                position: "right",
               },
               {
                 type: "doc",
                 docId: "components/accordion",
                 position: "left",
-                label: "Components",
+                label: "Danh Mục",
               },
-              {
-                type: "dropdown",
-                label: "v2.10.6 (Bootstrap 5)",
-                items: [
-                  {
-                    label: "v1.6.1 (Bootstrap 4)",
-                    href: "https://react-bootstrap-v4.netlify.app/",
-                  },
-                  {
-                    label: "v0.33.1 (Bootstrap 3)",
-                    href: "https://react-bootstrap-v3.netlify.app/",
-                  },
-                ],
-                position: "right",
-              },
+             
               {
                 href: "https://github.com/react-bootstrap/react-bootstrap",
                 label: "GitHub",
@@ -18121,39 +18122,39 @@
           footer: {
             links: [
               {
-                title: "Docs",
+                title: "Các Nhóm Danh Mục",
                 items: [
                   {
-                    label: "Getting Started",
-                    to: "/docs/getting-started/introduction",
+                    label: "Trang CHủ",
+                    to: "/",
                   },
-                  { label: "Layout", to: "/docs/layout/breakpoints" },
-                  { label: "Forms", to: "/docs/forms/overview" },
-                  { label: "Components", to: "/docs/components/accordion" },
-                  { label: "Utilities", to: "/docs/utilities/transitions" },
+                  { label: "Thuốc Kê Đơn", to: "/docs/layout/breakpoints" },
+                  { label: "Thuốc Không Kê Đơn", to: "/docs/forms/overview" },
+                  { label: "Thực Phẩm Chức Năng", to: "/docs/components/accordion" },
+                  { label: "Dược Mỹ Phẩm", to: "/docs/utilities/transitions" },
                 ],
               },
               {
-                title: "Community",
+                title: "Thông Tin & Liên Hệ",
                 items: [
                   {
-                    label: "Stack Overflow",
-                    href: "https://stackoverflow.com/questions/tagged/react-bootstrap",
+                    label: "tiktok",
+                    href: "https://tiktok.com/nhathuoccuongmui",
                   },
-                  { label: "Discord", href: "https://discord.gg/AKfs9vpvRW" },
+                  { label: "facebook", href: "https://facebook.com/nhathuoccuongmui" },
                 ],
               },
               {
-                title: "More",
+                title: "Hỗ Trợ",
                 items: [
                   {
-                    label: "GitHub",
-                    href: "https://github.com/react-bootstrap/react-bootstrap",
+                    label: "Hotline",
+                    href: "0366147368",
                   },
                 ],
               },
             ],
-            copyright: "Copyright \xa9 2024 CM Pharma. Built with Docusaurus.",
+            copyright: "Bản Quyền \xa9 CM Pharma. Được xây dựng Bởi KPT.",
             style: "light",
           },
           prism: {
