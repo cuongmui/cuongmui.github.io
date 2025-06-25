@@ -111,7 +111,7 @@
                 children: [
                   (0, c.jsx)(r.Z, {
                     className: "button button--primary button--lg",
-                    to: "/docs/getting-started/introduction",
+                    to: "../../img/logo.png",
                     children: "Bắt Đầu",
                   }),
                   (0, c.jsx)(r.Z, {
