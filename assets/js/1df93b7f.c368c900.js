@@ -17,7 +17,7 @@
                 (e.id = "_carbonads_js"),
                 (e.type = "text/javascript"),
                 (e.src =
-                  "../logo.png"),
+                  "./logo.png"),
                 t.current.appendChild(e);
             }
             return () => {
