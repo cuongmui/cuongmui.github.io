@@ -1,0 +1,30 @@
+
+
+
+
+
+
+[
+  {
+    "categories": ["Thuốc Kê Đơn"],
+    "content": "Hướng dẫn tạo blog đơn giản mà không cần biết về HTML, CSS và JS",
+    "date": "2025-05-10",
+    "objectID": "/tao-blog-don-gian-voi-ktp-va-cmpharma/",
+    "tags": ["CMPharmas", "KTP", "github", "git", "blog", "tutorial"],
+    "title": "Thuốc Hạ Sốt Paracetamol (Hapacol 250)",
+    "uri": "/tao-blog-don-gian-voi-ktp-va-cmpharma/"
+  },
+ 
+  {
+    "categories": ["Thuốc Không kê Đơn"],
+    "content": "Trị các triệu chứng cảm, sốt",
+    "date": "2025-06-19",
+    "objectID": "/postsrc/postX1/",
+    "tags": ["CMPharmas", "KTP", "github", "git", "blog", "tutorial", "kê đơn"],
+    "title": "Thuốc Coldacmin Flu",
+    "uri": "/postsrc/postX1"
+  }
+ 
+]
+
+

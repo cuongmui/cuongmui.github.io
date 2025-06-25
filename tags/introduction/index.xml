@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>introduction - Tag - CM Pharma</title>
+        <link>http://CMPharmas.github.io/tags/introduction/</link>
+        <description>introduction - Tag - CM Pharma</description>
+        <generator>KTP -- goKTP.io</generator><language>en-us</language><managingEditor>CMPharmas@gmail.com (Mr. KTP)</managingEditor>
+            <webMaster>CMPharmas@gmail.com (Mr. KTP)</webMaster><lastBuildDate>Sat, 09 May 2025 21:57:18 &#43;0700</lastBuildDate><atom:link href="http://CMPharmas.github.io/tags/introduction/" rel="self" type="application/rss+xml" /><item>
+    <title>Hello World</title>
+    <link>http://CMPharmas.github.io/hello-world/</link>
+    <pubDate>Sat, 09 May 2025 21:57:18 &#43;0700</pubDate>
+    <author>Author</author>
+    <guid>http://CMPharmas.github.io/hello-world/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hello-world/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>Đây là bài blog đầu tiên của tui&hellip;</p>]]></description>
+</item></channel>
+</rss>
