@@ -38,18 +38,18 @@ Sau khi tải về, chúng ta tiến hành giải nén thì sẽ được một 
 
 Các bạn nào dùng `Mac` hoặc `Linux` có thể tham khảo trên `Google` với từ khoá *"setting system environment variables on `<hệ điều hành>`"*. Tui sẽ hướng dẫn các bạn cài đặt trên `Windows` nhé! Các bạn vào `Start`, gõ *"edit the system environment variables"* để tìm kiếm.
 
-![Tìm kiếm và chọn mở Edit the system environment variables](images/tao-blog-don-gian-voi-ktp-va-cmpharma/search-env-variable-setting.jpg "Sau khi tìm thấy, chúng ta chọn Open")
+![Tìm kiếm và chọn mở Edit the system environment variables](images/post/search-env-variable-setting.jpg "Sau khi tìm thấy, chúng ta chọn Open")
 
-![Chọn Environment Variables...](images/tao-blog-don-gian-voi-ktp-va-cmpharma/open-env-variable-setting.png "Chọn Environment Variables...")
+![Chọn Environment Variables...](images/post/open-env-variable-setting.png "Chọn Environment Variables...")
 
-![Chọn Path sau đó nhấn nút Edit](images/tao-blog-don-gian-voi-ktp-va-cmpharma/edit-path.png "Chọn Path và nhấn Edit")
+![Chọn Path sau đó nhấn nút Edit](images/post/edit-path.png "Chọn Path và nhấn Edit")
 
-![Chọn New và thêm đường dẫn chứa thư mục KTP đã giải nén](images/tao-blog-don-gian-voi-ktp-va-cmpharma/them-va-luu-path.png "Chọn New và thêm đường dẫn chứa thư mục KTP đã giải nén")
+![Chọn New và thêm đường dẫn chứa thư mục KTP đã giải nén](images/post/them-va-luu-path.png "Chọn New và thêm đường dẫn chứa thư mục KTP đã giải nén")
 
 Xong rồi, các bạn nhớ chọn Ok để lưu lại nhé! Cùng kiểm tra xem KTP có hoạt động không nào?! Các bạn mở `command line` và gõ dòng lệnh:
 > KTP version
 
-![Đã cài đặt KTP thành công](images/tao-blog-don-gian-voi-ktp-va-cmpharma/kiem-tra-KTP.png "Như vầy là đã cài đặt thành công KTP nhé")
+![Đã cài đặt KTP thành công](images/post/kiem-tra-KTP.png "Như vầy là đã cài đặt thành công KTP nhé")
 
 ### 2.3 Khởi tạo blog và áp dụng giao diện
 Chúng ta mở `command line`, trỏ đến thư mục muốn tạo blog và gõ lệnh:
@@ -59,7 +59,7 @@ Chúng ta mở `command line`, trỏ đến thư mục muốn tạo blog và gõ
 Trên thanh địa chỉ tại thư mục muốn tạo blog, các bạn có thể gõ `cmd` để mở nhanh `command line`.
 {{< /admonition >}}
 
-![Khởi tạo thành công blog bằng KTP](images/tao-blog-don-gian-voi-ktp-va-cmpharma/new-site.png "Khởi tạo thành công blog")
+![Khởi tạo thành công blog bằng KTP](images/post/new-site.png "Khởi tạo thành công blog")
 
 Tiếp theo, các bạn hãy lựa chọn một giao diện phù hợp cho blog [tại đây](https://themes.goKTP.io/). Ở đây, tui đã lựa chọn cho mình giao diện [LoveIt](https://themes.goKTP.io/loveit/). Sau khi tải về và giải nén, chúng ta được một thư mục chứa giao diện.
 Sao chép thư mục đó vào trong `<sitename>\themes` (thư mục `<sitename>` cũng chính là thư mục vừa được tạo bằng lệnh trong hình trên đấy).
@@ -86,7 +86,7 @@ Ngoài ra, tên trang phải được viết liền không dấu và nối với
 
 Mở tệp `*.md` vừa tạo trong thư mục *content* để thêm nội dung cho bài viết.
 
-![Thêm nội dung vào bài viết](images/tao-blog-don-gian-voi-ktp-va-cmpharma/chinh-sua-bai-viet.png "Thêm nội dung vào bài viết")
+![Thêm nội dung vào bài viết](images/post/chinh-sua-bai-viet.png "Thêm nội dung vào bài viết")
 
 Các bạn có thể tìm hiểu cách viết nội dung cho `markdown` [tại đây](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) hoặc có thể xem thêm các bài viết trên trên mạng để việc trình bày nội dung được đẹp mắt hơn. Hiện tại, đã có rất nhiều bài viết hướng dẫn rất cụ thể, tui xin phép không hướng dẫn tại đây (nói vậy thôi chứ tại tui lười đó :joy:).
 
@@ -95,9 +95,9 @@ Trở lại `command line` lúc nãy, dùng lệnh:
 
 Blog đã được chạy thử trên máy bạn, mặc định ở địa chỉ <http://localhost:1313/>.
 
-![Trang chủ của blog có chứa bài viết mới](images/tao-blog-don-gian-voi-ktp-va-cmpharma/trang-chu.png "Trang chủ của blog có chứa bài viết vừa tạo")
+![Trang chủ của blog có chứa bài viết mới](images/post/trang-chu.png "Trang chủ của blog có chứa bài viết vừa tạo")
 
-![Nội dung bài viết được hiển thị trên web](images/tao-blog-don-gian-voi-ktp-va-cmpharma/noi-dung-bai-viet.png "Nội dung bài viết được hiển thị trên web")
+![Nội dung bài viết được hiển thị trên web](images/post/noi-dung-bai-viet.png "Nội dung bài viết được hiển thị trên web")
 
 ### 2.5 Đưa blog lên repository
 Đến bước cuối cùng rồi, các bạn có hồi hộp và nóng lòng không nào? Vậy chúng ta hoàn thành nốt thôi!
@@ -135,14 +135,14 @@ Liên kết với `repository` đã tạo ở mục [2.1](#21-tạo-mới-reposi
 
 Rồi, giờ là lúc dùng lệnh `KTP` ở `thư mục gốc`. Sau khi thực thi lệnh, các bạn vào thư mực  `<username>.github.io` để kiểm tra xem đã tạo được các file hay chưa.
 
-![Đã tạo các file thành công](images/tao-blog-don-gian-voi-ktp-va-cmpharma/hoan-thanh-generate.png "Đã tạo các file thành công")
+![Đã tạo các file thành công](images/post/hoan-thanh-generate.png "Đã tạo các file thành công")
 
 Nếu vẫn chưa tạo được, bạn có thể xem lại từ [bước này](#kiem-tra-publishdir).
 
 Thành công rồi thì xem tiếp nào. Ở thư mục `<username>.github.io`, dùng `command line` kiểm tra các file có thay đổi:
 > git status
 
-![Các file có thay đổi nội dung sẽ được liệt kê ra](images/tao-blog-don-gian-voi-ktp-va-cmpharma/git-status.png "Các file có thay đổi nội dung sẽ được liệt kê ra")
+![Các file có thay đổi nội dung sẽ được liệt kê ra](images/post/git-status.png "Các file có thay đổi nội dung sẽ được liệt kê ra")
 
 Nếu có thay đổi, chúng ta tiếp tục gõ:
 
@@ -150,7 +150,7 @@ Nếu có thay đổi, chúng ta tiếp tục gõ:
 
 > git status
 
-![Các file được thêm vào chuẩn bị gửi sẽ chuyển sang màu xanh lá](images/tao-blog-don-gian-voi-ktp-va-cmpharma/sau-git-add.png "Các file được thêm vào chuẩn bị gửi sẽ chuyển sang màu xanh lá")
+![Các file được thêm vào chuẩn bị gửi sẽ chuyển sang màu xanh lá](images/post/sau-git-add.png "Các file được thêm vào chuẩn bị gửi sẽ chuyển sang màu xanh lá")
 
 Cuối cùng, dùng lệnh:
 > git commit -m `"<nội-dung>"`
