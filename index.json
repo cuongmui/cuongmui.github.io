@@ -7,20 +7,28 @@
 [
   {
     "categories": ["Thuốc Kê Đơn"],
-    "content": "Hướng dẫn tạo blog đơn giản mà không cần biết về HTML, CSS và JS",
+    "content": "Hạ sốt  & Giảm đau",
     "date": "2025-06-18",
     "objectID": "/postsrc/postX",
-    "tags": ["CMPharmas", "KTP", "github", "git", "blog", "tutorial"],
+    "tags": ["kedon", "khongkedon", "duocmypham", "thucphamchucnang"],
     "title": "Thuốc Hạ Sốt Paracetamol (Hapacol 250)",
-    "uri": "/postsrc/postX1"
+    "uri": "/postsrc/postX"
   },
- 
+  {
+    "categories": ["Thuốc Kê Đơn"],
+    "content": "Hạ sốt  & Giảm đau",
+    "date": "2025-06-18",
+    "objectID": "/postsrc/postX",
+    "tags": ["kedon", "khongkedon", "duocmypham", "thucphamchucnang"],
+    "title": "Thuốc Hạ Sốt  (Hapacol 500)",
+    "uri": "/postsrc/postX"
+  },
   {
     "categories": ["Thuốc Không kê Đơn"],
     "content": "Trị các triệu chứng cảm, sốt",
     "date": "2025-06-19",
     "objectID": "/postsrc/postX1/",
-    "tags": ["CMPharmas", "KTP", "github", "git", "blog", "tutorial", "kê đơn"],
+    "tags": ["kedon", "khongkedon", "duocmypham", "thucphamchucnang"],
     "title": "Thuốc Coldacmin Flu",
     "uri": "/postsrc/postX1"
   }
